@@ -7,7 +7,7 @@ const Navbar = () => {
             <div>
                 <ul className={classes.nav_logo}>
                     <li>
-                        <NavLink to={"/"}><h4>KYRGYZ-AI</h4></NavLink>
+                        <NavLink to={"/"}><h4>KYRGYZ TRANSLATE</h4></NavLink>
                     </li>
                 </ul>
 
@@ -18,12 +18,12 @@ const Navbar = () => {
                     <li>
                         <NavLink to={"/audiopage"}>Аудио</NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink to={"/bookpage"}>Книги</NavLink>
                     </li>
                     <li>
                         <NavLink to={"/coursepage"}>Уроки</NavLink>
-                    </li>
+                    </li> */}
                     {/*<li>*/}
                     {/*    <NavLink to={"/login"}>Войти</NavLink>*/}
                     {/*</li>*/}
