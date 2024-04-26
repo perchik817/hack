@@ -1,13 +1,15 @@
 .wrap{
-    width: 100%;
+    width: 80%;
     height: 100%;
-    padding: 50px 10%;
+    margin: 50px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 0px 20px 2px #21FF87;
+    border-radius: 20px;
 
     .left{
-        width: 45%;
+        width: 65%;
         height: 550px;
         display: flex;
         flex-direction: column;
@@ -16,8 +18,6 @@
         .leftArea{
             width: 100%;
             height: 100%;
-            border-radius: 20px;
-            box-shadow: 0px 0px 20px 2px #21FF87;
             padding: 20px;
             font-size: 20px;
             outline: none;
@@ -49,17 +49,15 @@
         }
     }
     .right{
-        width: 45%;
+        width: 35%;
         height: 550px;
         display: flex;
         flex-direction: column;
-        padding: 30px;
-        border-radius: 20px;
-        box-shadow: 0px 0px 20px 2px #21FF87;
+        padding: 20px;
         .rText{
             font-size: 18px;
             width: 100%;
-            height: 90%;
+            height: 70%;
             overflow-y: scroll;
         }
         // .rText::-webkit-scrollbar {
@@ -67,16 +65,18 @@
         // }
         .rbtns{
             width: 100%;
-            height: 10%;
+            height: 8%;
+            gap: 10px;
+            flex-direction: column;
             display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
             align-items: center;
-            padding-top: 10px;
+            padding-top: 20px;
 
             .rsmall{
                 padding: 10px 20px;
                 background-color: white;
+                width: 180px;
+                text-align: center;
                 box-shadow: 0px 0px 5px 2px #21FF87;
                 border-radius: 20px;
                 cursor: pointer;

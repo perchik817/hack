@@ -49,80 +49,9 @@
       display: flex;
       flex-direction: column;
       overflow: scroll;
-      scrollbar-width: none; /* Убираем индикаторы скролла в Firefox */
+      scrollbar-width: none; 
     -ms-overflow-style: none;
 
-      .film {
-        position: relative;
-        width: 1000px;
-        height: 400px;
-        overflow: hidden;
-        border: .5px solid white;
-
-        &::after {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.67) 45%);
-        }
-
-        > video {
-          position: absolute;
-          width: auto;
-          height: 100%;
-          top: 0;
-          right: 0;
-        }
-
-        > div {
-          position: absolute;
-          height: 100%;
-          padding: 30px;
-          top: 10%;
-          left: 5%;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 40px;
-          z-index: 3;
-
-          > h4 {
-            font-size: 35px;
-          }
-
-          > p {
-            font-size: 20px;
-            width: 60%;
-            line-height: 1.5;
-          }
-
-          > button {
-            padding: 10px 20px;
-            background-color: transparent;
-            border: 1px solid white;
-            width: 150px;
-            border-radius: 5px;
-
-
-            &:hover {
-              background-color: red;
-
-              > a {
-                color: white;
-              }
-            }
-
-            > a {
-              color: white;
-            }
-          }
-        }
-
-        //background: url("https://cdn.pixabay.com/video/2023/12/10/192687-893427276_large.mp4");
-      }
 
       .film_card {
         width: 100%;

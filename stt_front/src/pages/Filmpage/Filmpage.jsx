@@ -70,13 +70,13 @@ const Filmpage = () => {
         {toggle === true ? (
           <div className={classes.cont_left}>
             <section className={classes.film}>
-              <video autoPlay loop width={800} height={500}>
+              {/* <video autoPlay loop width={800} height={500}>
                 <source
                   src="https://cdn.pixabay.com/video/2023/12/10/192687-893427276_large.mp4"
                   type="video/mp4"
                 />
-              </video>
-              <div>
+              </video> */}
+              {/* <div>
                 <h4>Керемет көч</h4>
                 <p>
                   В этом году широко известному мультфильму «Керемет коч»
@@ -85,7 +85,7 @@ const Filmpage = () => {
                 <button>
                   <Link to={"/videodetail/1"}>Подробнее</Link>
                 </button>
-              </div>
+              </div> */}
             </section>
 
             <section className={classes.film_card}>
