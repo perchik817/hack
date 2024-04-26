@@ -88,27 +88,14 @@ function Homepage() {
     return (
         <section className={cl.HomePage}>
             <div className={cl.cont}>
-                <section className={cl.left}>
-                    {/* Логотип Kyrgyz Translate */}
-                    <Link to="/">
-                        <p>Kyrgyz Translate</p>
-                    </Link>
-                </section>
 
                 <section className={cl.right}>
                     <div>
                         {/* Текстовый контент */}
-                        <h3>Kyrgyz Translate - видеолорду кыргызча көрү!</h3>
+                        <h3>Kyrgyz Translate - видеолорду кыргызча көрүнүз!</h3>
                         <p>
                             Kyrgyz Translate поможет вам с переводом и озвучкой кыргызских текстов и видео.
                         </p>
-                        {/* Навигация */}
-                        <Link to="/videopage">
-                            Перейти к видео
-                        </Link>
-                        <Link to="/audiopage">
-                            Перейти к аудио
-                        </Link>
                     </div>
                 </section>
             </div>
