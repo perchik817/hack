@@ -1,0 +1,167 @@
+// .HomePage {
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   background-repeat: no-repeat;
+//   background-position: left;
+//   background-image: url("../../assets/background.svg.png");
+
+//   .cont {
+//     width: 80%;
+//     margin: 0 auto;
+
+//     display: flex;
+//     justify-content: space-around;
+//     gap: 50px;
+
+
+//     .left {
+//       width: 509px;
+//       height: 675px;
+//       border: 1px solid rgba(255, 255, 255, 0.65);
+//       display: flex;
+//       flex-direction: column;
+//       gap: 25px;
+//       padding: 20px;
+//       border-radius: 1px;
+//       background-color: rgba(11, 11, 11, 0.6);
+
+//       > img {
+//         width: 100%;
+//         height: 400px;
+//         border: .5px solid rgba(255, 255, 255, 0.65);
+//         border-radius: 2px;
+//       }
+
+//       > aside {
+
+//         > a {
+//           display: flex;
+//           flex-direction: column;
+//           gap: 10px;
+//           color: white;
+
+//           > h4 {
+//             font-size: 18px;
+//             line-height: 1.4;
+
+//           }
+
+//           > p {
+//             line-height: 22px;
+//             font-size: 12px;
+//           }
+
+//           > div {
+//             display: flex;
+//             align-items: center;
+//             gap: 100px;
+//           }
+
+//         }
+//       }
+//     }
+
+//     .right {
+//       display: flex;
+//       flex-direction: column;
+//       gap: 42px;
+
+//       > div {
+//         width: 509px;
+//         background-color: rgba(11, 11, 11, 0.29);
+
+//         height: 197px;
+//         border: 1px solid rgba(255, 255, 255, 0.65);
+//         padding: 20px;
+//         display: flex;
+//         align-items: flex-start;
+//         gap: 20px;
+//         border-radius: 5px;
+
+//         > article {
+//           height: 70%;
+//           display: flex;
+//           justify-content: center;
+//           gap: 40px;
+//           align-items: flex-end;
+
+
+//           > aside {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 10px;
+
+//             h3 {
+//               line-height: 1.4;
+
+//             }
+
+//             > p {
+//               line-height: 22px;
+//               font-size: 14px;
+//             }
+//           }
+//         }
+
+//       }
+//     }
+//   }
+// }
+
+.HomePage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("../../assets/kyrgyzstan-tie-dye-country-map-design-turnpike.jpg");
+  background-size: cover;
+
+  .cont {
+    width: 80%;
+    margin: 0 auto;
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 42px;
+
+      >div {
+        width: 80%;
+        background-color: rgba(4, 4, 4, 0.473);
+        height: 197px;
+        border: 1px solid rgba(255, 255, 255, 0.65);
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 5px;
+
+        >h3,
+        >p {
+          color: white; // Цвет текста
+          font-size: 18px; // Размер текста
+          line-height: 1.5; // Межстрочный интервал
+        }
+
+        >a {
+          color: white; // Цвет ссылок
+          font-size: 16px; // Размер текста ссылок
+          text-decoration: none; // Убираем подчеркивание ссылок
+          transition: color 0.3s ease; // Плавное изменение цвета при наведении
+
+          &:hover {
+            color: lightblue; // Цвет при наведении
+          }
+        }
+      }
+    }
+  }
+}

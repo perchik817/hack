@@ -1,0 +1,24 @@
+.wrap{
+    width: 100%;
+    padding: 30px 10% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    >a{
+        .btnModal{
+            background-color: white ;   
+            padding: 30px 50px;
+            border-radius: 20px;  
+            .btnText{
+                font-size: 28px;
+                font-weight: 700;
+            }
+        }
+    }
+    .rightText{
+        font-size: 28px;
+        font-weight: 700;
+        width: 450px;
+        text-align: right;
+    }
+}

@@ -1,0 +1,27 @@
+.Film{
+    width: 368px;
+    height: 247px;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 0 15px 0 #21FF87;
+    border-radius: 15px;
+
+    &__poster{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    &__title{
+        position: absolute;
+        z-index: 150;
+        left: 16px;
+        bottom: 10px;
+        color: #fff;
+        font-size: 24px;
+        max-width: 334px;
+        padding:5px 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
