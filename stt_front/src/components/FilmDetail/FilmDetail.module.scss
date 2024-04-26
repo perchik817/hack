@@ -7,6 +7,7 @@
     align-items: center;
     box-shadow: 0px 0px 20px 2px #21FF87;
     border-radius: 20px;
+    overflow: hidden;
 
     .left{
         width: 65%;
@@ -16,11 +17,13 @@
         justify-content: space-between;
 
         .leftArea{
-            width: 100%;
-            height: 100%;
-            padding: 20px;
+            width: 94%;
+            height: 94%;
+            margin: auto;
             font-size: 20px;
             outline: none;
+            border-radius: 10px;
+            overflow: hidden;
             overflow-y: scroll;
             resize: none;
 
@@ -49,23 +52,25 @@
         }
     }
     .right{
+        background-color: #020200;
         width: 35%;
         height: 550px;
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 30px 30px 30px;
         .rText{
             font-size: 18px;
             width: 100%;
             height: 70%;
             overflow-y: scroll;
+            padding: 0 20px 10px;
         }
         // .rText::-webkit-scrollbar {
         //     display: none;
         // }
         .rbtns{
             width: 100%;
-            height: 8%;
+            height: 6%;
             gap: 10px;
             flex-direction: column;
             display: flex;
