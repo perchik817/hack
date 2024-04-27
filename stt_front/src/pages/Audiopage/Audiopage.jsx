@@ -86,7 +86,7 @@ const Audiopage = () => {
               {audio.map((item) => (
                 <article key={item.id}>
                   <img
-                    src="https://img.freepik.com/free-vector/colorful-wavy-background_23-2148497772.jpg"
+                    src="https://img.pikbest.com/ai/illus_our/20230428/dcd9d2c869ec476075f5afc39dbfbb12.jpg!w700wp"
                     alt={item.name}
                   />
                   <aside>
